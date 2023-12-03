@@ -9,10 +9,14 @@ function App() {
   useEffect(() => {
     new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve({ data: { todoList: [] } });
+        resolve({
+          data: {
+            todoList: JSON.parse(localStorage.getItem("savedTodoList")) || [],
+          },
+        });
       }, 2000);
-    }).then((response) => {
-      setTodoList(response.data.todoList);
+    }).then((result) => {
+      setTodoList(result.data.todoList);
       setIsLoading(false);
     });
   }, []);
