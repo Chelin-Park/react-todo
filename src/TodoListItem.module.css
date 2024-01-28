@@ -1,4 +1,47 @@
 .ListItem {
     color: red;
   }
-  
+  body {
+    background-color: #f6f6f6; /* Replace with your desired color */
+  }
+  body {
+    color: #333; /* Replace with your desired color */
+  }
+  body {
+    font-family: "Arial", sans-serif; /* Replace with your desired font family */
+  }
+  body {
+    font-family: "Font Name", sans-serif; /* Replace with the font name you loaded */
+  }
+  .navigation-item {
+    color: #555; /* Replace with your desired color */
+    font-weight: bold; /* Replace with your desired font weight */
+    /* Add any other desired styles */
+  }
+  .element {
+    margin-bottom: 10px; /* Replace with your desired margin */
+    padding: 10px; /* Replace with your desired padding */
+  }
+  h1, h2, h3 {
+    font-size: 24px; /* Replace with your desired font size */
+    font-weight: bold; /* Replace with your desired font weight */
+    color: #333; /* Replace with your desired color */
+  }
+  input[type="text"], button {
+    background-color: #fff; /* Replace with your desired background color */
+    color: #333; /* Replace with your desired text color */
+    /* Add any other desired styles */
+  }
+/* Example media queries */
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+@media (min-width: 1025px) {
+  /* Styles for desktop devices */
+}
+                
